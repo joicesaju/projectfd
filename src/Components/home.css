@@ -1,0 +1,36 @@
+
+.home{
+    width: 100%;
+    height:700px;
+    /* border: 2px solid black */
+}
+.image{
+    width: 100%;
+    height: 50%;
+    background: url('../Images/food.jpg');
+    background-repeat: no-repeat;
+    margin-left: 80px;
+}
+h4:hover{
+  color: blue;
+}
+.fdcard{
+    background-image: url(https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    
+}
+h4{
+    font-family: nike combat stencil;
+    color: black;
+    font-weight: 300;
+}
+.types{
+   padding: 10px;
+  /* background-color: black;    */
+}
+.sld{
+    margin-left: 50%;
+}
+
+.text{
+    font-weight: bolder ;
+}

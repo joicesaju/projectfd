@@ -1,0 +1,26 @@
+.foodd{
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    /* border: 1px solid black; */
+  
+}
+.rimg{
+    float: left;
+    width: 300px;
+    height:300px;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+
+Button{
+    border-radius: 10px;
+}
+.card{
+    width: 400px;
+    height: 400px;
+/* border: 1px solid white; */
+}
