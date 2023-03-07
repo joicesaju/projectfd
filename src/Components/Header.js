@@ -8,6 +8,7 @@ import './header.css'
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import Footer from './Footer';
+import { Button } from 'react-bootstrap';
 
   function Header() {
 
@@ -21,25 +22,30 @@ import Footer from './Footer';
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            {/* <Nav.Link to={'/'} style={{ color:"black" }} ><h4>home</h4></Nav.Link> */}
-            <Link to={'/'}  style={{textDecoration:"none" }}  className="me-5">
+            
+            <Link to={'/'}  style={{textDecoration:"none" }}  className="ms-3 me-5 mt-3">
             <h4>home</h4>
             </Link>
 
-            <Link to={'/'}  style={{textDecoration:"none"}}  className="me-5">
+            <Link to={'/'}  style={{textDecoration:"none"}}  className="me-5 mt-3">
             <h4>Menu</h4>
             </Link>
 
+           
 
-            <Link to={'/footer'}  style={{textDecoration:"none"}}  className="me-5">
+            <Link to={'/footer'}  style={{textDecoration:"none"}}  className="me-5 mt-3">
             <h4>About</h4>
             </Link>
 
             
-            <Link to={'/history'}  style={{textDecoration:"none"}}  className="me-5">
+            <Link to={'/history'}  style={{textDecoration:"none"}}  className="me-5 mt-3">
             <h4>history</h4>
             </Link>
           
+
+            <Link to={'/LR'}  style={{textDecoration:"none"}}  className=" ms-5 me-5">
+            <Button variant='info' style={{borderRadius:"10px"}}>sign-in</Button>
+            </Link>
         
           </Nav>
         </Navbar.Collapse>
